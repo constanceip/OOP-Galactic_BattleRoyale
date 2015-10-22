@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 8.1.3//EN
+N:Swartz;Brent;;;
+FN:Brent Swartz
+item1.EMAIL;type=INTERNET;type=pref:bmswartz513@yahoo.com
+item2.EMAIL;type=INTERNET:bmswartz513@aol.com
+TEL;type=CELL;type=VOICE;type=pref:(610) 505-2835
+END:VCARD

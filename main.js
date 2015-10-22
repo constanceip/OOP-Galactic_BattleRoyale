@@ -106,11 +106,11 @@ function addPlayer() {
 
 	if(answer==="alliance"){
 		var allianceObject = new Char(playerPic, playerName, playerRole, specialPower);
-		characters.push(allianceObject);
+		characters.unshift(allianceObject);
 		printAlliance(listCharacters(characters));
 	}else{
 		var empireObject= new Char(playerPic,playerName, playerRole, specialPower);
-		enemies.push(empireObject);
+		enemies.unshift(empireObject);
 		printEmpire(listCharacters(enemies));	
 	}
 
